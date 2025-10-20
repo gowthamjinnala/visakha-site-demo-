@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: #35424a;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #d8461d;
+}
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+#Hr
+{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;  
+}
+#Finance
+{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;
+}
+#Marketing
+{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;
+}
+#LgScm
+{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;
+}
+#HHcm
+{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;
+}
+h2 {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    background: #35424a;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.white
+{
+    color: white;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

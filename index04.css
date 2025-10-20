@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    background: #35424a;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #d8461d;
+}
+main {
+    padding: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+#CSE
+{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;  
+}
+#CAD
+{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;
+}
+#Powersystems
+{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;
+}
+#structuralengineering
+{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;
+}
+#Thermalengineering
+{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;
+}
+section h2 {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    background: #35424a;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.white
+{
+    color: white;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

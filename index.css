@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 0px;
+}
+header h1{
+
+    padding-top: 10px;
+    margin-top: 0px;
+    text-align: center;
+}
+header div 
+{
+    align-items: center;
+    height: 200px;
+    width: 220px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    margin-left:30px;
+    padding-left: 40%;
+    padding-bottom: 25px;
+}
+header h1
+{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #d8461d;
+}
+.clg
+{
+    margin-left:32%;
+    width: 200px ;
+    padding-top: 0px;
+}
+#about
+{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;  
+}
+
+#courses
+{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;
+}
+#Events
+{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;
+}
+#contact
+{
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #35424a;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
